@@ -1,6 +1,7 @@
 # -*- coding:utf-8 -*-
 import numpy as np
-from joblib import Parallel, delayed
+from sklearn.externals.joblib import Parallel, delayed
+#from joblib import Parallel, delayed
 
 from .log_utils import get_logger
 
